@@ -18,7 +18,7 @@
   //#define ENABLEOTA                                       // OTA feature
 
   // Define (just one) type of MP3/AAC decoder
-  #define DEC_VS1053                                        // Hardware decoder for MP3, AAC, OGG
+  //#define DEC_VS1053                                        // Hardware decoder for MP3, AAC, OGG
   //#define DEC_VS1003                                      // Hardware decoder for MP3 only
   //#define DEC_HELIX                                       // Software decoder for MP3, AAC. I2S output
   //#define DEC_HELIX_SPDIF                                 // Toslink/Spdif output for MP3, AAC (experimental)
@@ -27,7 +27,7 @@
                                                             // Needs platform = espressif32@3.1.0 !!!!
 
   // Define (just one) type of display.  See documentation.
-  #define BLUETFT                                         // Works also for RED TFT 128x160
+  //#define BLUETFT                                         // Works also for RED TFT 128x160
   //#define ST7789                                          // 240x240 TFT (SPI)
   //#define OLED1306                                        // 64x128 I2C OLED SSD1306
   //#define OLED1309                                        // 64x128 I2C OLED SSD1309
